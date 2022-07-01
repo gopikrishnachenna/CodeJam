@@ -1,0 +1,45 @@
+In the submissions by the contestants make use of the contestant - Hoang Vu from United States who ranked 18 in Qualification Round.
+
+All the codes with the prefix "sub_" is the code copied from submitters in Google code jam
+
+##################################################################################################################
+
+For the first program Vestigium.c I have done much better than Hoang Vu.
+He literally takes 3 times my running time.
+
+##################################################################################################################
+
+For the second program Nesting Depth, I designed the program pretty good but while print the output Case # So had to do multiple attempts to check that.
+
+##################################################################################################################
+
+Made multiple blunders in the third problem Parenting Partnering.
+First I made a mistake in my code where i am breaking out when the case is impossible but in the same flow i am reading input. This was causing an issue because then the input will get muddled.
+Second i made a mistake in my logical approach. I did a greedy assignment without sorting the tasks which was an issue. Example shown below
+
+AAAAAAAAAAAAAA
+	BBBBBBBBBBb
+		CCCCCCCCCCCCCCC
+			DDDDDDDDDDDDD
+
+If the task A comes first it is assigned to James. If taks D comes later it is assigned to James. And if task B comes later it isclashing with A so it is assigned to Cameron. If the task C comes later it is clashing with B task in Cameron list and D task in James list. So it becomes impossible.
+
+But there is a way - A and C can be taken up by James and B and D can be taken up by Cameron.
+
+My mistake is that i had to sort it out before doing the greedy assignment.
+
+Took help from Hoang Vu's implementation for qsort and read the analysis from Google.
+Reminder to never do these before presenting my soultion.
+
+##################################################################################################################
+
+This problem was a bit tough but finished it at the end.
+
+Took help of Hoang Vu's script to only understand how to read the input.
+
+Took some time to getting used to interactive test scripting
+
+Some logical errors. Maybe should have written an algorithm
+
+##################################################################################################################
+
